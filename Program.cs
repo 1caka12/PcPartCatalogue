@@ -48,7 +48,7 @@ namespace PcPartCatalog
         }
         private static void DisplayProducts(string productType)
         {
-            string connectionString = "server=localhost;user=root;database=Catalog;port=3306;password=root";
+            string connectionString = "server=localhost;user=root;database=productscmd;port=3306;password=root";
             MySqlConnection connection = new MySqlConnection(connectionString);
             connection.Open();
 
@@ -101,7 +101,7 @@ namespace PcPartCatalog
        
         static void Main(string[] args)
         {
-            string connectionString = "server=localhost;user=root;database=Catalog;port=3306;password=root";
+            string connectionString = "server=localhost;user=root;database=;port=3306;password=root";
             MySqlConnection connection = new MySqlConnection(connectionString);
             connection.Open();
 
